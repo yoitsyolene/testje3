@@ -1,10 +1,10 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.scss'
-import TypeWriter from './components/typewriter/typewriter'
-import OrderedList from './components/orderedlist/orderedlist'
-import ClientItem from './components/clients/clients'
+import TypeWriter from '../components/typewriter/typewriter'
+import OrderedList from '../components/orderedlist/orderedlist'
+import ClientItem from '../components/clients/clients'
 import classes from "../styles/Home.module.scss";
-import CallToAction from './components/calltoaction/calltoaction';
+import CallToAction from '../components/calltoaction/calltoaction';
 
 export default function Home() {
   return (
